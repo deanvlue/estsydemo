@@ -3,7 +3,7 @@
 body {
 background-color: #fcfced;
 color: #555;
-font-family: 'Roboto', Helvetica, Arial, sans-serif;
+font-family: 'Open Sans','Roboto', Helvetica, Arial, sans-serif;
 
 }
 
@@ -13,14 +13,14 @@ font-family: 'Roboto', Helvetica, Arial, sans-serif;
 }
 
 .navbar-default .navbar-brand{
-  font-family: guardian-egypt, georgia, serif;
+  font-family: georgia, serif;
   font-weight: 400;
   color: #d5641c;
   font-size: 30px;
 }
 
 .navbar-default .navbar-nav li > a{
-  font-family:'Roboto', Arial, Helvetica, sans-serif;
+  font-family: 'Quattrocento Sans','Roboto', Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: bold;
   color: #0192b5;
@@ -42,12 +42,12 @@ font-family: 'Roboto', Helvetica, Arial, sans-serif;
 
 .caption{
     h3{
-        font-size:17px;
+        font-size:16px;
         margin: 2px;
    }
 
     p{
-        font-size:15px;
+        font-size:12px;
         margin: 0px;
     }
 }
