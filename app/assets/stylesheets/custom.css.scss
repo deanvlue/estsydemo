@@ -1,29 +1,29 @@
 @import "bootstrap";
 
 body {
-background-color: #fcfced;
+background-color: #dfdfdf;
 color: #555;
 font-family: 'Open Sans','Roboto', Helvetica, Arial, sans-serif;
 
 }
 
 .navbar-default{
-  background-color:#efefeb;
+  background-color:#36bbbb;
 
 }
 
 .navbar-default .navbar-brand{
   font-family: georgia, serif;
   font-weight: 400;
-  color: #d5641c;
+  color: #ffffff;
   font-size: 30px;
 }
 
 .navbar-default .navbar-nav li > a{
-  font-family: 'Quattrocento Sans','Roboto', Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: bold;
-  color: #0192b5;
+  color: #ffffff;
 }
 
 .center{
@@ -50,4 +50,18 @@ font-family: 'Open Sans','Roboto', Helvetica, Arial, sans-serif;
         font-size:12px;
         margin: 0px;
     }
+}
+
+.navbar-brand{
+  margin-top: 3px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+
+}
+
+.thumbnail{
+  img{
+    background-color: #808080;
+    padding: 4px;
+  }
 }
