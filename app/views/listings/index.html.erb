@@ -1,7 +1,11 @@
+<div class="jumbotron">
+  <h1>Tu Tienda en línea gratis, tu dinero inmediato.</h1>
+  <h2>Crea tu tienda en línea en minutos.<br> Cobra sin bancos ni intermediarios</h2>
+</div><!--jumbotron -->
+
 <div class="center">
 <div class="row">
   <% @listings.each do |listing| %>
-   
     <div class="col-md-3">
       <div class="thumbnail">
         <%= link_to image_tag(listing.image.url), listing %>
