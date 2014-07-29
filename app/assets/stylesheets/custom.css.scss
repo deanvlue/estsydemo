@@ -2,28 +2,28 @@
 
 body {
 background-color: #f2f2f2;
-color: #555;
-font-family: 'Open Sans','Roboto', Helvetica, Arial, sans-serif;
+color: #777;
+font-family: 'Arimo', Helvetica, Arial, sans-serif;
 
 }
 
 .navbar-default{
-  background-color:#36bbbb;
+  background-color:#4bd2d0;
 
 }
 
 .navbar-default .navbar-brand{
   font-family: georgia, serif;
   font-weight: 400;
-  color: #ffffff;
+  color: #e82c0c;
   font-size: 30px;
 }
 
 .navbar-default .navbar-nav li > a{
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-family: 'Arimo', Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: bold;
-  color: #ffffff;
+  color: #e82c0c;
 }
 
 .center{
@@ -67,16 +67,19 @@ font-family: 'Open Sans','Roboto', Helvetica, Arial, sans-serif;
 }
 
 .jumbotron{
-  background-image: url('https://dl.dropboxusercontent.com/s/f55dcnxcdcmyan8/jumbotron.jpg');
+  //background-image: url('https://dl.dropboxusercontent.com/s/f55dcnxcdcmyan8/jumbotron.jpg');
+  
+  background-color: #36bbbb;
+
   h1{
-    font-family:Lobster, serif;
+    //font-family: Lobster, serif;
+    font-family: "Helvetica Neue", "Arimo", sans-serif;
     color:#ffffff;
-    text-shadow: 2px 2px #36bbbb;
+    text-shadow: 2px 2px #bbb;
   }
-  h2{
-    font-family:Comfortaa, sans-serif;
+  h3{
     color:#fff;
-    font-size: 2em;
+    font-size: 1.5em;
     br{
       padding: 10px;
     }
