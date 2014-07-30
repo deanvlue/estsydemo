@@ -67,22 +67,29 @@ font-family: 'Arimo', Helvetica, Arial, sans-serif;
 }
 
 .jumbotron{
-  //background-image: url('https://dl.dropboxusercontent.com/s/f55dcnxcdcmyan8/jumbotron.jpg');
+  background-image: url('https://dl.dropboxusercontent.com/s/f55dcnxcdcmyan8/jumbotron.jpg');
   
-  background-color: #36bbbb;
 
   h1{
-    //font-family: Lobster, serif;
-    font-family: "Helvetica Neue", "Arimo", sans-serif;
-    color:#ffffff;
-    text-shadow: 2px 2px #bbb;
-  }
-  h3{
+    // font-family: Lobster, serif;
+    //font-family: "Helvetica Neue", "Arimo", sans-serif;
+    font-family: "Roboto", sans-serif;
     color:#fff;
-    font-size: 1.5em;
+    font-size: 50px;
+    font-weight: bold;
+    //text-shadow: 2px 2px #111;
+    br{
+      margin: 10px;
+    }
+  }
+  h4{
+    font-family: "Roboto", sans-serif;
+    color:#fff;
+    //font-size: 1.2em;
     br{
       padding: 10px;
     }
+    //text-shadow: 2px 2px #111;
   }
   color: #fff;
 }
