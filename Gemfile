@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
+source 'https://code.stripe.com'
+
 ruby "2.1.2"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -57,3 +59,6 @@ end
 group :development do
   gem 'sqlite3'
 end
+
+#stripe for credit card processing
+gem 'stripe'
